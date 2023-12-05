@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScreenSaverApp.AbstractBaseObjects.AbstractImageObject" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAgAAAAAIAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractBaseObjects\AbstractImageObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.AbstractBaseObjects.AbstractMoveImageObject" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAEEAAA=</HashCode>
+      <FileName>AbstractBaseObjects\AbstractMoveImageObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Backgrounds.AbstractBackground">
+    <Position X="10" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAAAAAAAAAAAAABAAAIAIAAAAAACAAIAAA=</HashCode>
+      <FileName>Backgrounds\AbstractBackground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Backgrounds.DayBackground">
+    <Position X="7.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backgrounds\DayBackground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Backgrounds.NightBackground">
+    <Position X="12.75" Y="17.5" Width="1.5" />
+    <InheritanceLine Type="ScreenSaverApp.Backgrounds.AbstractBackground" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10.75" Y="16.709" />
+        <Point X="10.75" Y="17.125" />
+        <Point X="13.5" Y="17.125" />
+        <Point X="13.5" Y="17.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backgrounds\NightBackground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Clouds.CommonCloud" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKAAgAAAAAAAAAAAAAAAQBAAAAQAAAIAAAA=</HashCode>
+      <FileName>Clouds\CommonCloud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Clouds.RainyCloud" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAKgAAAEEAAAAAAAACAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clouds\RainyCloud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.AbstractConstellation" Collapsed="true">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAQAAAACAAAAAAAAAAAAAAAAAAAhAAAAQAAAAAAIA=</HashCode>
+      <FileName>Constellations\AbstractConstellation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.ConstellationBigBear" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constellations\ConstellationBigBear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.ConstellationCassiopea" Collapsed="true">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="ScreenSaverApp.Constellations.AbstractConstellation" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="1.096" />
+        <Point X="15.5" Y="1.096" />
+        <Point X="15.5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constellations\ConstellationCassiopea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.ConstellationCepheus" Collapsed="true">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constellations\ConstellationCepheus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.ConstellationLittleBear" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constellations\ConstellationLittleBear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.ConstellationSwan" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="ScreenSaverApp.Constellations.AbstractConstellation" FixedFromPoint="true">
+      <Path>
+        <Point X="16.812" Y="0.75" />
+        <Point X="16.812" Y="0.375" />
+        <Point X="12.125" Y="0.375" />
+        <Point X="12.125" Y="3.596" />
+        <Point X="11.75" Y="3.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constellations\ConstellationSwan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Constellations.Star" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKAAAAAAAAAAAAAAACAAAhAIAAQAAAAAAAA=</HashCode>
+      <FileName>Constellations\Star.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Extensions.RandomExtensions" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Extensions\RandomExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.FormMain" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACADAACAAAAACAAIQCAAAAAAgAAAEAAAAAAAA=</HashCode>
+      <FileName>FormMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.FormSettings" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAEBAAAACAAAACAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>FormSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Program" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.ScreenSaver">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADACAgABAAIABAAFQAAAAAAAAAQgAEEAABA=</HashCode>
+      <FileName>ScreenSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.AbstractGenerator&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AARACAAAAAAASgAAAAAAAAAAAAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>Generators\AbstractGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.AbstractGeneratorMove&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generators\AbstractGeneratorMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.CommonCloudGenerator" Collapsed="true">
+    <Position X="3.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Generators\CommonCloudGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.ConstellationGenerator" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.75" />
+    <InheritanceLine Type="ScreenSaverApp.Generators.AbstractGenerator&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.312" Y="7.062" />
+        <Point X="6.312" Y="7.405" />
+        <Point X="8.33" Y="7.405" />
+        <Point X="8.33" Y="8.095" />
+        <Point X="7.5" Y="8.095" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAA=</HashCode>
+      <FileName>Generators\ConstellationGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.RainyCloudGenerator" Collapsed="true">
+    <Position X="5.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Generators\RainyCloudGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Generators.StarGenerator" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Generators\StarGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Properties.Resources" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Properties.Settings" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.SpaceLightObjects.LightMoveObject" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAKAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAA=</HashCode>
+      <FileName>SpaceLightObjects\LightMoveObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.SpaceLightObjects.Moon" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpaceLightObjects\Moon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.SpaceLightObjects.Sun" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpaceLightObjects\Sun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Themes.AbstractTheme" Collapsed="true">
+    <Position X="10" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACAAAgAAAAAAAAIAAAAAAAAAAAAgQAEAAAA=</HashCode>
+      <FileName>Themes\AbstractTheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Themes.DayTheme" Collapsed="true">
+    <Position X="6.75" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="ScreenSaverApp.Themes.AbstractTheme" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="10.756" />
+        <Point X="7.562" Y="10.756" />
+        <Point X="7.562" Y="12.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACAAAAAAAAAAAAIAAAAAAAAAAAAgQAEAAAA=</HashCode>
+      <FileName>Themes\DayTheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenSaverApp.Themes.NightTheme" Collapsed="true">
+    <Position X="14" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="ScreenSaverApp.Themes.AbstractTheme" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="10.746" />
+        <Point X="14.688" Y="10.746" />
+        <Point X="14.688" Y="12.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAABACACAAAAAAAAAAAAIAAAAAAACAAAAgQAEAAAA=</HashCode>
+      <FileName>Themes\NightTheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
